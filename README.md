@@ -63,6 +63,11 @@ The namespace contains the following distribution functions:
 
 <!-- <toc pattern="*+(cdf|pdf|mgf|quantile)*"> -->
 
+<div class="namespace-toc">
+
+
+</div>
+
 <!-- </toc> -->
 
 </section>
