@@ -65,6 +65,8 @@ The namespace contains the following distribution functions:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`cdf( x, r, v[, nranges=1] )`][@stdlib/stats/base/dists/studentized-range/cdf]</span><span class="delimiter">: </span><span class="description">Studentized range distribution cumulative distribution function (CDF).</span>
+-   <span class="signature">[`quantile( p, r, v[, nranges=1] )`][@stdlib/stats/base/dists/studentized-range/quantile]</span><span class="delimiter">: </span><span class="description">Studentized range distribution quantile function.</span>
 
 </div>
 
@@ -173,6 +175,10 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [studentized-range]: https://en.wikipedia.org/wiki/Studentized_range_distribution
 
 <!-- <toc-links> -->
+
+[@stdlib/stats/base/dists/studentized-range/cdf]: https://github.com/stdlib-js/stats-base-dists-studentized-range-cdf
+
+[@stdlib/stats/base/dists/studentized-range/quantile]: https://github.com/stdlib-js/stats-base-dists-studentized-range-quantile
 
 <!-- </toc-links> -->
 
