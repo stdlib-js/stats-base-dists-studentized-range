@@ -38,7 +38,8 @@
   "dependencies": {
     "@stdlib/stats-base-dists-studentized-range-cdf": "^0.0.x",
     "@stdlib/stats-base-dists-studentized-range-quantile": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x"
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-positive-integer": "^0.0.x",
