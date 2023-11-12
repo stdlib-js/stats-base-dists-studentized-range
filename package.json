@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-positive-integer": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/constants-float64-ln-two": "^0.1.1",
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-pi": "^0.1.1",
