@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-19)
+## Unreleased (2024-07-06)
 
 <section class="packages">
 
@@ -18,8 +18,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 -   Rejoan Sardar
 
@@ -33,6 +34,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9669982`](https://github.com/stdlib-js/stdlib/commit/966998214dc39efece0cbd557786bc5dde4adcb8) - **style:** resolve lint error _(by Athan Reines)_
 -   [`352993d`](https://github.com/stdlib-js/stdlib/commit/352993db5c4a41180aa78951a0bc1c9faa8aefc4) - **docs:** improve examples of `stats/base/dists/studentized-range` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 
