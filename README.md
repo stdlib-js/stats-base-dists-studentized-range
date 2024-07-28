@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@deno/mod.js';
+import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cdf, quantile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@deno/mod.js';
+import { cdf, quantile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@v0.2.1-deno/mod.js';
 ```
 
 #### tukey
@@ -86,7 +86,7 @@ The namespace contains the following distribution functions:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@deno/mod.js';
+import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@v0.2.1-deno/mod.js';
 
 /*
 * Let's consider an example where we are analyzing the test scores of students in a class.
