@@ -35,32 +35,20 @@ limitations under the License.
 
 > Studentized range distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-studentized-range
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var tukey = require( '@stdlib/stats-base-dists-studentized-range' );
+import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { cdf, quantile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@esm/index.mjs';
 ```
 
 #### tukey
@@ -97,8 +85,13 @@ The namespace contains the following distribution functions:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var tukey = require( '@stdlib/stats-base-dists-studentized-range' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import tukey from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@esm/index.mjs';
 
 /*
 * Let's consider an example where we are analyzing the test scores of students in a class.
@@ -117,6 +110,10 @@ var out = tukey.cdf( 2.0, r, v, n );
 // Quantile can also be used to calculate the quantile function at a specific probability:
 out = tukey.quantile( 0.9, r, v, n );
 // returns ~4.433
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -140,7 +137,7 @@ out = tukey.quantile( 0.9, r, v, n );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -207,9 +204,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/studentized-range/cdf]: https://github.com/stdlib-js/stats-base-dists-studentized-range-cdf
+[@stdlib/stats/base/dists/studentized-range/cdf]: https://github.com/stdlib-js/stats-base-dists-studentized-range-cdf/tree/esm
 
-[@stdlib/stats/base/dists/studentized-range/quantile]: https://github.com/stdlib-js/stats-base-dists-studentized-range-quantile
+[@stdlib/stats/base/dists/studentized-range/quantile]: https://github.com/stdlib-js/stats-base-dists-studentized-range-quantile/tree/esm
 
 <!-- </toc-links> -->
 
