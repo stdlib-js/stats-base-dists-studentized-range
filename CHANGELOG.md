@@ -4,9 +4,102 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-02-24)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="stats-base-dists-studentized-range-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/studentized-range/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/studentized-range/cdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4987](https://github.com/stdlib-js/stdlib/issues/4987)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-studentized-range-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/studentized-range/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/studentized-range/quantile)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4987](https://github.com/stdlib-js/stdlib/issues/4987)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4987](https://github.com/stdlib-js/stdlib/issues/4987)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Harsh
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2f54879`](https://github.com/stdlib-js/stdlib/commit/2f54879e747af42e332e37d0a033a25f54ae05c2) - **bench:** refactor random number generation in `stats/base/dists/studentized-range` [(#5175)](https://github.com/stdlib-js/stdlib/pull/5175) _(by Harsh, Karan Anand, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 

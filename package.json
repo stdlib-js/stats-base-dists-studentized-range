@@ -41,6 +41,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-is-positive-integer": "^0.2.2",
     "@stdlib/constants-float64-ln-two": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
@@ -57,6 +58,7 @@
     "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/utils-constant-function": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
