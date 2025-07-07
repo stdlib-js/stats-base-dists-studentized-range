@@ -35,38 +35,32 @@ limitations under the License.
 
 > Studentized range distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-studentized-range
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-tukey = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var tukey = require( 'path/to/vendor/umd/stats-base-dists-studentized-range/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.tukey;
-})();
-</script>
+var tukey = require( '@stdlib/stats-base-dists-studentized-range' );
 ```
 
 #### tukey
@@ -103,13 +97,8 @@ The namespace contains the following distribution functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-studentized-range@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var tukey = require( '@stdlib/stats-base-dists-studentized-range' );
 
 /*
 * Let's consider an example where we are analyzing the test scores of students in a class.
@@ -128,11 +117,6 @@ var out = tukey.cdf( 2.0, r, v, n );
 // Quantile can also be used to calculate the quantile function at a specific probability:
 out = tukey.quantile( 0.9, r, v, n );
 // returns ~4.433
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -165,6 +149,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -212,13 +201,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-studentized-range/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-studentized-range/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-studentized-range/main/LICENSE
+
 [studentized-range]: https://en.wikipedia.org/wiki/Studentized_range_distribution
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/studentized-range/cdf]: https://github.com/stdlib-js/stats-base-dists-studentized-range-cdf/tree/umd
+[@stdlib/stats/base/dists/studentized-range/cdf]: https://github.com/stdlib-js/stats-base-dists-studentized-range-cdf
 
-[@stdlib/stats/base/dists/studentized-range/quantile]: https://github.com/stdlib-js/stats-base-dists-studentized-range-quantile/tree/umd
+[@stdlib/stats/base/dists/studentized-range/quantile]: https://github.com/stdlib-js/stats-base-dists-studentized-range-quantile
 
 <!-- </toc-links> -->
 
