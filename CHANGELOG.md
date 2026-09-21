@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-09-21)
+
+<section class="features">
+
+### Features
+
+-   [`250d09e`](https://github.com/stdlib-js/stdlib/commit/250d09e1a4e7e1d8fbd28d9a10e90096a173c2b7) - add C implementation for `stats/base/dists/studentized-range/cdf` [(#10106)](https://github.com/stdlib-js/stdlib/pull/10106)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3887](https://github.com/stdlib-js/stdlib/issues/3887)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,9 @@
 
 <details>
 
+-   [`b19ceae`](https://github.com/stdlib-js/stdlib/commit/b19ceae5e0b50853951ac213b5370f530d59144e) - **style:** remove blank line _(by stdlib-bot)_
+-   [`fbf7687`](https://github.com/stdlib-js/stdlib/commit/fbf76874bdaa45e6df339442b3e6ad038196e34c) - **chore:** clean-up _(by Athan Reines)_
+-   [`250d09e`](https://github.com/stdlib-js/stdlib/commit/250d09e1a4e7e1d8fbd28d9a10e90096a173c2b7) - **feat:** add C implementation for `stats/base/dists/studentized-range/cdf` [(#10106)](https://github.com/stdlib-js/stdlib/pull/10106) _(by Nirmal Jyoti Biswas, Neeraj Pathak, Philipp Burckhardt)_
 -   [`72bcd83`](https://github.com/stdlib-js/stdlib/commit/72bcd83880399c89cd8b88deca1d00b1ae288c2a) - **docs:** update `stats/base/dists/studentized-range` TypeScript declarations [(#12610)](https://github.com/stdlib-js/stdlib/pull/12610) _(by stdlib-bot)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
@@ -26,10 +51,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Mara Averick
+-   Neeraj Pathak
+-   Nirmal Jyoti Biswas
 -   Philipp Burckhardt
 
 </section>
